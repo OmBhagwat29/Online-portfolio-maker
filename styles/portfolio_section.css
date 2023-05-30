@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;600&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	color: #595959;
+}
+
+body{
+	background: var(--myback);
+}
+
+
+.nav-link{
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.navbar{
+	background: var(--myback);
+}
+
+.navbar-brand h3{
+	color: var(--mycolor); 
+}
+
+.main{
+	background: linear-gradient(to bottom, var(--myheader), #00000000);
+	height: 90vh;
+	width: 100%;
+	clip-path: ellipse(75% 100% at 49% 0%);
+	padding-top: 80px;
+}
+
+.main .center h1{
+	font-size: 60px;
+	color: var(--mycolor);
+	text-transform: uppercase;
+}
+
+.main .center p{
+	font-size: 20px;
+	color: var(--thim);
+	width: 50%;
+	margin: auto;
+}
+
+.main .center button{
+	font-size: 18px;
+	background-color: var(--mycolor);
+	padding: 10px 25px;
+	border-radius: 50px;
+	color:  #fff;
+	border:  none;
+	outline:  none;
+	margin-top: 20px;
+}
+.main .center img{
+ width: 400px;
+}
+
+.heading{
+	margin: 20px auto;
+	margin-top: 150px;
+	text-align: center;
+	color: var(--mycolor);
+
+}
+
+hr{
+   border:  3px solid  var(--mycolor);
+   width: 100px;
+   margin: auto;
+   border-radius: 50px;
+   background: var(--mycolor);
+   margin-bottom: 30px;
+}
+
+.main .center{
+	text-align: center;
+	padding: 80px 0;
+}
+
+.skills_container{
+	text-align: center;
+}
+
+.skills_container .skill{
+	width:530px;
+	/*background: red;*/
+	margin: 30px 0;
+	display: inline-flex;
+}
+
+.skills_container .edu{
+	width:530px;
+	/*background: red;*/
+	margin: 10px 0;
+	display: inline-flex;
+	padding: 20px;
+}
+
+.skills_container .pro{
+	width:100%;
+	/*background: red;*/
+	margin: 10px 0;
+	display: inline-flex;
+	padding: 20px;
+}
+
+
+
+
+.skills_container .skill .skill_badge{
+	width: 80%;
+	margin: auto;
+	background: #e6e6e6;
+	height: 20px;
+	border-radius: 50px;
+	
+}
+
+
+.skills_container h4{
+color: var(--thimhead);
+font-weight: bold;
+font-size: 22px;
+}
+
+.skills_container p{
+color: var(--thim);
+}
+
+.skills_container .skill .skill_badge .sbar{
+	background:  var(--mycolor); 
+	height: 100%; 
+	border-radius: 50px;
+	color: #fff;
+}
+
+.skills_container .skill .skill_badge .sbar span{
+	color: #fff;
+	margin: -2px 10px;
+}
+
+
+
+.skills_container .pro button{
+	
+	color: var(--mycolor);
+	border: 2px solid var(--mycolor);
+	border-radius: 50px;
+	outline: none;
+	padding: 3px 15px;
+	background: transparent;
+}
+
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+
+}
+ul.timeline:before {
+    content: ' ';
+    background: var(--myheader);
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 50px;
+
+}
+
+ul.timeline > li .title{
+  font-size: 22px;
+}
+
+ul.timeline > li .title span{
+	font-style: italic;
+	font-size: 15px;
+}
+
+ul.timeline > li:before {
+    content: ' ';
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid var(--mycolor);
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+.resume_btn{
+	font-size: 18px;
+	background-color: var(--mycolor);
+	padding: 10px 25px;
+	border-radius: 50px;
+	color:  #fff;
+	border:  none;
+	outline:  none;
+	margin-top: 150px;
+	margin: auto;
+}
+
+.resume_btn .fa-download{
+	color: #fff;
+}
+
+.footer{
+	background: var(--mycolor);
+	padding: 50px;
+	margin-top: 150px;
+	
+}
+
+.footer p{
+	color: #fff !important;
+}
+/*
+===============================
+--------MEDIA QUESRIES---------
+===============================
+*/
+@media(max-width: 700px){
+	.main .center h1{
+		font-size: 40px;
+		color: #004a99;
+	}
+	.main .center img{
+	 width: 400px;
+	}
+
+	.skills_container{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+}
+
+
+@media(max-width:  560px){
+		.skills_container .skill{
+	width: 100%;
+	margin: 10px 0;
+}
+
+
+}
+
+@media(max-width: 430px){
+	.main .center h1{
+		font-size:35px;
+	}
+
+	.main .center p{
+		font-size:20px;
+	}
+	.main .center img{
+	 width: 300px;
+	}
+
+
+
+}

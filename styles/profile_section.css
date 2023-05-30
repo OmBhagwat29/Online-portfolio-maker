@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;600&display=swap');
+
+*{
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body{
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	scroll-behavior: smooth;
+}
+
+
+.navbar{
+	border-bottom: 3px solid #f2f2f2;
+
+}
+
+.navbar-brand img{
+	width: 100px;
+}
+
+.navbar .nav-item{
+	margin: 0px 5px;
+}
+
+.navbar .message_present{
+	background: #0099ff;
+	height: 7px;
+	width: 7px;
+	position: relative;
+	bottom: 15px;
+	left: 80px;
+	border-radius: 10px;
+}
+.theme{
+	font-size: 20px;
+	background: #f2f2f2;
+	border-radius: 5px;
+	padding: 5px 20px;
+	width: 200px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	margin-top: 10px;
+}
+
+.col-sm{
+	padding: 15px;
+}
+
+.form-control, .input{
+	padding: 8px;
+	border-radius: 3px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	border: 1px solid #f2f2f2 !important;
+	outline:none !important;
+	width: 100%;
+	transition: 0.5s ease;
+	margin: 10px 0;
+	
+}
+
+.input:hover{
+	border: 1px solid rgb(102, 153, 255, 0.4);
+}
+
+.section_heading{
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	font-weight: bold;
+	color: #404040;
+	font-size: 22px;
+	margin: 20px 0;
+	margin-bottom: 30px;
+	margin-top: 50px;
+}
+
+.section_info{
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	color: #737373;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.my_btn{
+	padding: 8px 20px;
+	border-radius: 3px;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	border: 1px solid #f2f2f2;
+	outline:none;
+	transition: 0.5s ease;
+	margin: 10px 0;
+	background: #003399;
+	color: #fff;
+}
+
+.my_btn:hover{
+	background: #0044cc;
+}
+
+.skills_container .section_info{
+	width: 100%;
+	background: rgb(242, 242, 242, 0.3);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #4d4d4d;
+	border: 1px solid rgb(242, 242, 242, 0.8);
+}
+
+.skills_container .section_info .fa-minus{
+	background: #fff;
+	padding: 6px 7px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.skills_container .section_info .fa-minus:hover{
+	background: rgb(242, 242, 242);
+}
+
+.login_container {
+	width: 600px;
+	margin: auto;
+}
+
+
+.education_container .section_info{
+	width: 100%;
+	background: rgb(242, 242, 242, 0.3);
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #4d4d4d;
+	border: 1px solid rgb(242, 242, 242, 0.8);
+}
+
+.education_container .section_info h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.education_container .section_info p{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.education_container .section_info .fa-minus{
+	background: #fff;
+	padding: 6px 7px;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 28px;
+}
+
+.education_container .section_info .fa-minus:hover{
+	background: rgb(242, 242, 242);
+}
+
+
+.personal_info_container .section_info{
+	width: 100%;
+	background: rgb(242, 242, 242, 0.3);
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	color: #4d4d4d;
+	border: 1px solid rgb(242, 242, 242, 0.8);
+}
+
+.personal_info_container .section_info h3{
+	font-size: 16px;
+	font-weight: bold;
+}
+.personal_info_container .section_info p{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+.personal_info_container .section_info .fa-minus, .personal_info_container .section_info .fa-pencil{
+	background: #fff;
+	padding: 6px 7px;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 28px;
+}
+
+.personal_info_container .section_info .fa-minus:hover, .personal_info_container .section_info .fa-pencil: hover{
+	background: rgb(242, 242, 242);
+}
+
+.add_icon{
+	display: flex;
+	justify-content: space-between;
+}
+
+.add_icon .fa-plus{
+	background: #f2f2f2;
+	padding: 10px 12px;
+	border-radius: 50%;
+	font-size: 17px;
+	cursor: pointer;
+	background: rgb(242, 242, 242, 0.3);
+	color: #4d4d4d;
+	border: 1px solid rgb(242, 242, 242, 0.8);
+}
+
+.add_icon .fa-plus:hover{
+	background: #f2f2f2;
+}
+
+.footer_container{
+	background: #001133;
+	padding: 50px;
+	margin-top: 100px;
+	
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer img{
+	width: 100px;
+}
+
+.footer h4{
+	font-size: 15px;
+	color: #f2f2f2;
+	padding-top: 10px;
+}
+
+.footer .fa{
+	color: #fff;
+	margin: 0px 5px;
+	background: rgb(255, 255, 255, 0.3);
+	border-radius: 50px;
+	padding: 7px 9px;
+	width: 32px;
+
+}
+
+@media max-width(700px){
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
+}
